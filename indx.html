@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in page </title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <form class="page">
+        <div class="sign">
+            <h1>Sign Up</h1>
+            <label for="name"> First name:</label></br>
+            <input type="text" maxlength="15" id="name" placeholder="type here" required></br>
+            <label for="prname"> Last name:</label></br>
+            <input type="text" maxlength="15" id="prname" placeholder="type here" required></br>
+            <label for="gender">select your gender:</label>
+            <select name="gender" id="gender">
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select></br>
+            <label for="bday"> Date of birth:</label>
+            <input type="date" name="date" id="bday" value="yyyy-mm-dd" max="2023-12-31"></br>
+            <label for="nmbr"> unter your phone number:</label>
+            <input type="number" name="nmbr" id="nmbr"  minlength="4" required></br>
+            <label for="pass"> unter your password:</label>
+            <input type="text" name="pass" id="pass"  minlength="4" required></br>
+            <button><a href="">done</a></button>
+        </div>
+    </form>
+</body>
+</html>
